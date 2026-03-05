@@ -5,7 +5,7 @@
 phpと.htaccessで動かす予定
 
 どういう感じか
-&lt;fumo:〇〇&gt;みたいな感じ
+&lt;fumo:〇〇&gt;みたいな感じ(調べたら似たのあるらしい)
 
 ToDo
 headerとfooterの埋め込み機能(headerはtitleを読み取って&lt;h◯&gt;内を自動生成したりする)
