@@ -1,0 +1,4 @@
+DirectoryIndex index.fumo
+RewriteBase /
+RewriteEngine On
+RewriteRule ^(.*)\.fumo$ fumo.php?fumo_file=$1 [L,QSA]

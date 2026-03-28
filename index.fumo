@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<fumo:head:.fumo>
+</head>
+<body>
+<pre>
+<a href="#test">下へ参ります</a>
+Hello,fumo!
+現在の機能
+実行するコード/結果
+&lt;fumo:fumo&gt;: <fumo:fumo>
+&lt;fumo:now&gt;: <fumo:now>
+&lt;fumo:unix&gt;: <fumo:unix>
+&lt;fumo:head:[タイトル名]&gt;: <a href="/head.fumo">/head.fumo</a>にあるタグが書かれる、head内に[TITLE]と打つと左の部分の[タイトル名]に置き換わる、OGPとか&lt;title&gt;タグに使える
+&lt;fumo:header&gt;: <fumo:header> <a href="/header.fumo">/header.fumo</a>
+&lt;fumo:footer&gt;: <fumo:footer> <a href="/footer.fumo">/footer.fumo</a>
+&lt;fumo:sidebar&gt;: <fumo:sidebar> <a href="/sidebar.fumo">/sidebar.fumo</a>
+&lt;fumo:sidebar2&gt;: <fumo:sidebar2> <a href="/sidebar2.fumo">/sidebar2.fumo</a>
+<?php echo("これはphpでechoされたやつです")?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span id="test">#のやつのてすと</span>
+</pre>
+</body>
+</html>
