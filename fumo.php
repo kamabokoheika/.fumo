@@ -100,7 +100,7 @@ if ($file == "") {
         <?php 
             try {
                 // evalでいばる
-                eval("?> " . $okaesi_mousu); 
+                eval("?> " . $okaesi_mousu. " <?php ");
             } catch (Throwable $e) {
                 echo "<div style='color:red;' class='fumo-error'>[fumo]: " . htmlspecialchars($e->getMessage()) . "</div>";
             }
