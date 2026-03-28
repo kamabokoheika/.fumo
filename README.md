@@ -8,8 +8,8 @@ phpと.htaccessで動かす予定
 &lt;fumo:〇〇&gt;みたいな感じ(調べたら似たのあるらしい)
 
 ToDo
-headerとfooterの埋め込み機能(headerはtitleを読み取って&lt;h◯&gt;内を自動生成したりする)
+済 headerとfooterの埋め込み機能(headerはtitleを読み取って&lt;h◯&gt;内を自動生成したりする)
 カウンター機能
-&lt;head&gt;タグ内の埋め込み機能(titleやDIsのあのリンク送ったときの下の部分とかをカスタムできるようにする)
+済 &lt;head&gt;タグ内の埋め込み機能(titleやDIsのあのリンク送ったときの下の部分とかをカスタムできるようにする)
 やる気を出す(はよやれ)
 </pre>
