@@ -1,4 +1,5 @@
-DirectoryIndex index.fumo
+# .fumo用のやーつ
+DirectoryIndex index.fumo # index.htmlとか使うんだったらここ消して良し
 RewriteBase /
 RewriteEngine On
 RewriteRule ^(.*)\.fumo$ fumo.php?fumo_file=$1 [L,QSA]
