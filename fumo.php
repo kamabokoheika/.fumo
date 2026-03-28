@@ -10,7 +10,7 @@ date_default_timezone_set('Asia/Tokyo'); // お前は東京住まいだ
 function fumo($content) {
     $base_dir = __DIR__;
 
-    $page_title = "ふも"; # でふぉのページタイトル、<fumo:head>で何もなかったときにやる
+    $title_value = "ふも"; # でふぉのページタイトル、<fumo:head>で何もなかったときにやる
 
     # 埋め込みます！
     # headタグ内のやつ(titleもできるように)
@@ -19,7 +19,7 @@ function fumo($content) {
         if (preg_match("/<fumo:head:(.*?)>/", $content, $matches)) {
             $title_value = $matches[1];
 
-            $replaced_head = str_replace("[TITLE]", $title_value, $head_nakami);
+            $replaced_head = str_replace("<fumo:title>", $title_value, $head_nakami); // 変だなとか言わないで、ヤケクソで書いたやつ(Geminiに)だから
 
             $content = str_replace($matches[0], $replaced_head, $content);
         }
@@ -49,6 +49,8 @@ function fumo($content) {
         $content = str_replace("<fumo:sidebar2>", $sidebar_nakami, $content);
     }
 
+    # Re:TITLE処理
+    $content = str_replace("<fumo:title>", $title_value, $content);
 
     # 置き換えする系の処理
     $content = str_replace("<fumo:fumo>", "ᗜˬᗜ", $content); // ᗜˬᗜ
