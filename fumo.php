@@ -10,7 +10,7 @@ date_default_timezone_set('Asia/Tokyo'); // お前は東京住まいだ
 function fumo($content) {
     $base_dir = __DIR__;
 
-    $title_value = "ふも"; # でふぉのページタイトル、<fumo:head>で何もなかったときにやる
+    $title_value = "ふも"; # でふぉのページタイトル、<fumo:head>で何もなかったときにやるって思ったけど全然意味がないというかそもそもいらねえじゃねえかこれ無駄すぎる
 
     # 埋め込みます！
     # headタグ内のやつ(titleもできるように)
