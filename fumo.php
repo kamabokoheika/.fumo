@@ -58,7 +58,7 @@ function fumo($content) {
 
 
 // ファイルをゲットだぜ！
-$file = preg_replace('/[^a-zA-Z0-9_-]/', '', $_GET['fumo_file'] ?? "");
+$file = preg_replace('/[^a-zA-Z0-9\/_-]/', '', $_GET['fumo_file'] ?? "");
 
 // ほう、../を使ってくるのか、ならば成敗！
 if (strpos($file, '..') !== false) {
