@@ -20,6 +20,9 @@ Hello,fumo!
 &lt;fumo:sidebar2&gt;: <fumo:sidebar2> <a href="/fumo/sidebar2.fumo">/fumo/sidebar2.fumo</a>
 &lt;fumo:ad&gt;: <fumo:ad> <a href="/fumo/ad.fumo">/fumo/ad.fumo</a>
 &lt;fumo:title&gt;: <fumo:title>
+
+リリース一覧
+<a href="/releases/fumo-v1.0.0.zip">v1.0.0</a> 初リリース <a href="https://github.com/kamabokoheika/.fumo/releases/tag/v1.0.0">github</a>
 <?php echo("これはphpでechoされたやつです")?>
 
 
