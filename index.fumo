@@ -17,6 +17,7 @@ Hello,fumo!
 &lt;fumo:footer&gt;: <fumo:footer> <a href="/fumo/footer.fumo">/fumo/footer.fumo</a>
 &lt;fumo:sidebar&gt;: <fumo:sidebar> <a href="/fumo/sidebar.fumo">/fumo/sidebar.fumo</a>
 &lt;fumo:sidebar2&gt;: <fumo:sidebar2> <a href="/fumo/sidebar2.fumo">/fumo/sidebar2.fumo</a>
+&lt;fumo:ad&gt;: <fumo:ad> <a href="/fumo/ad.fumo">/fumo/ad.fumo</a>
 &lt;fumo:title&gt;: <fumo:title>
 <?php echo("これはphpでechoされたやつです")?>
 
