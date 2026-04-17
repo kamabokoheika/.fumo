@@ -22,6 +22,7 @@ Hello,fumo!
 &lt;fumo:title&gt;: <fumo:title>
 
 リリース一覧
+<a href="/releases/fumo-v1.0.1.zip">v1.0.1</a> 初リリース <a href="https://github.com/kamabokoheika/.fumo/releases/tag/v1.0.1">github</a>
 <a href="/releases/fumo-v1.0.0.zip">v1.0.0</a> 初リリース <a href="https://github.com/kamabokoheika/.fumo/releases/tag/v1.0.0">github</a>
 <?php echo("これはphpでechoされたやつです")?>
 
