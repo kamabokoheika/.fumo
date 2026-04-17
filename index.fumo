@@ -12,11 +12,11 @@ Hello,fumo!
 &lt;fumo:fumo&gt;: <fumo:fumo>
 &lt;fumo:now&gt;: <fumo:now>
 &lt;fumo:unix&gt;: <fumo:unix>
-&lt;fumo:head:[タイトル名]&gt;: <a href="/head.fumo">/head.fumo</a>にあるタグが書かれる、head内に[TITLE]と打つと左の部分の[タイトル名]に置き換わる、OGPとか&lt;title&gt;タグに使える
-&lt;fumo:header&gt;: <fumo:header> <a href="/header.fumo">/header.fumo</a>
-&lt;fumo:footer&gt;: <fumo:footer> <a href="/footer.fumo">/footer.fumo</a>
-&lt;fumo:sidebar&gt;: <fumo:sidebar> <a href="/sidebar.fumo">/sidebar.fumo</a>
-&lt;fumo:sidebar2&gt;: <fumo:sidebar2> <a href="/sidebar2.fumo">/sidebar2.fumo</a>
+&lt;fumo:head:[タイトル名]&gt;: <a href="/fumo/head.fumo">/fumo/head.fumo</a>にあるタグが書かれる、head内に&lt;fumo:title&gt;と打つと左の部分の[タイトル名]に置き換わる、OGPとか&lt;title&gt;タグに使える
+&lt;fumo:header&gt;: <fumo:header> <a href="/fumo/header.fumo">/fumo/header.fumo</a>
+&lt;fumo:footer&gt;: <fumo:footer> <a href="/fumo/footer.fumo">/fumo/footer.fumo</a>
+&lt;fumo:sidebar&gt;: <fumo:sidebar> <a href="/fumo/sidebar.fumo">/fumo/sidebar.fumo</a>
+&lt;fumo:sidebar2&gt;: <fumo:sidebar2> <a href="/fumo/sidebar2.fumo">/fumo/sidebar2.fumo</a>
 &lt;fumo:title&gt;: <fumo:title>
 <?php echo("これはphpでechoされたやつです")?>
 
