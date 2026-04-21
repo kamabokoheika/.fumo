@@ -1,8 +1,0 @@
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><fumo:title></title>
-	<!--discord用-->
-    <meta content="<fumo:title>" property="og:title" />
-    <meta content="ふもふもしてる言語" property="og:description" />
-    <meta content="https://fumo.kama5.link/" property="og:url" />
-    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
