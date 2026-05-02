@@ -90,7 +90,7 @@ if ($file == "") {
         ob_start();
         ?>
 
-        <?php 
+        <?php
             try {
                 // evalでいばる
                 eval("?> " . $okaesi_mousu. " <?php ");
