@@ -46,7 +46,7 @@ function fumo($content) {
 
     // 埋め込みます！
 
-//自動挿入処理
+    //自動挿入処理
 
     // ① <head> の直後に挿入（<fumo:noah> がなければ実行）
     if (!empty($config_after_head) && strpos($content, '<fumo:noah>') === false) {
