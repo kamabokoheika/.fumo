@@ -3,7 +3,7 @@
 // 実行する優先度はfumoが上です
 
 $koreha_sekaiiti_mudana_hennsuu_nanode_ijiru_imiga_nainndesu_souieba_nihonngotte_tukaetakke_hennsuu_meini = "使えるわけがないだろだったら一体何に使えるんだ";
-$douyara_suujito_anndaabaa_to_oomoji_komoji_no_eigodake_sita_tukaenairasii = "あらそうだったのね";
+$douyara_suujito_anndaabaa_to_oomoji_komoji_no_eigodake_sika_tukaenairasii = "あらそうだったのね";
 
 // 利用者のお前らがいじるconfig
 
