@@ -28,4 +28,5 @@ phpと.htaccessで動かす予定
 Ⅱ. 書き方やら仕様やら
 メインの構文は&lt;fumo:[関数]:[引数]&gt;
 実行の順序はfumo→phpって感じ
+関数とかは https://fumo.kama5.link/index.fumo を見てね(説明めんどい)
 </pre>
